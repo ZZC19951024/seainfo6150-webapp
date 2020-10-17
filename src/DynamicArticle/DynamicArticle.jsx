@@ -5,15 +5,15 @@ const DynamicArticle = (props) => {
   return (
     <article>
       <header>
-        <h1>{props.article.title}</h1>
+        <h1>{props.test.title}</h1>
         <address>
-          by {props.article.author} (
-          <a href={props.article.authorEmail}>{props.article.authorEmail}</a>)
+          by {props.test.author} (
+          <a href={props.test.authorEmail}>{props.test.authorEmail}</a>)
           <br />
         </address>
-        <time dateTime={props.article.timeStamp}>{props.article.displayDate}</time>
+        <time dateTime={props.test.timeStamp}>{props.test.displayDate}</time>
       </header>
-      <HTMLText text={props.article.text} />
+      <HTMLText text={props.test.text} />
     </article>
   );
 };
