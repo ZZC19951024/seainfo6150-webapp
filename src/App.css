@@ -1,7 +1,3 @@
-.App {
-  text-align: center;
-}
-
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
   height: 40vmin;
@@ -22,6 +18,45 @@
 .App-link {
   color: #61dafb;
 }
+.App {
+	background-color:#a9a9a9;
+	border:2px dotted;
+	margin: 20px;
+	border-radius: 10px;
+	box-shadow: 0 0 5px 5px #F08080;
+}
+
+.List {
+	margin-top: 20px;
+}
+ul {
+	list-style-type: none;
+	padding-inline-start: 0px;
+}
+
+.ListItem {
+	background:linear-gradient(to right, #ff6666 , #ebebe0);
+	background-size: 300px;
+	background-repeat:repeat-y;
+	border:1px solid red;
+	margin:30px;
+	border-radius: 10px;
+	background-color: #ebebe0;
+	box-shadow: 0 0 8px 5px #666;
+	padding:15px;
+	
+}
+button{
+	background: red;
+	height: 50px;
+	font-size: 20px;
+	color: white;
+	border:2px solid black;
+	border-radius:10px;
+	border-left-color:gray;
+	border-top-color:gray;
+}
+
 
 @keyframes App-logo-spin {
   from {

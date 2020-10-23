@@ -18,7 +18,7 @@ const ArticleList = (props) => {
   }
 
   return (
-    <div>
+    <div className = "List">
       {displayContent}
     </div>
   );
