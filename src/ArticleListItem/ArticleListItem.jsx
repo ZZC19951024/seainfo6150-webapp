@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import PropTypes from "prop-types";
 import ArticleTextToggleButton from "../ArticleTextToggleButton/ArticleTextToggleButton.jsx"
+import './ArticleListItem.module.css'
 
 const ArticleListItem = (props) => {
 	const [buttonAction, setButtonAction] = useState(false);

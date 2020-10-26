@@ -1,0 +1,12 @@
+li {
+	background:linear-gradient(to right, #ff6666 , #ebebe0);
+	background-size: 300px;
+	background-repeat:repeat-y;
+	border:1px solid red;
+	margin:30px;
+	border-radius: 10px;
+	background-color: #ebebe0;
+	box-shadow: 0 0 8px 5px #666;
+	padding:15px;
+	
+}
