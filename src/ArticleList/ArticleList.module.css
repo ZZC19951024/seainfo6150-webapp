@@ -7,4 +7,11 @@
     list-style-type: none;
     padding: 15px;
   }
+
+.flex {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+}
+
   
