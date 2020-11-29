@@ -12,6 +12,18 @@ const ContactUs = () => {
 		<p><b>Adress:</b>Seattle xxxxxxxxx</p>
 		<p><b>Email:</b>1234@gmail.com</p>
 	  </section>
+	  <form>
+	    <label for="fname">First name:</label>
+		<input type="text" id="fname" name="fname"/><br></br>
+		<label for="lname">Last name:</label>
+		<input type="text" id="lname" name="lname"/><br></br>
+		<label for="sex">Sex:</label>
+		<select name="sex" id="sex">
+		  <option value="male">male</option>
+		  <option value="female">female</option>
+		</select><br></br>
+		<button>submit</button>
+	  </form>
 	</div>
   );
 };
